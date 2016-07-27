@@ -95,10 +95,7 @@ module.exports = {
 			var finalvalue;
 			var combo = letterValue1 + letterValue2;
 			
-			if(combo <= 0){
-				finalvalue = 25 - (combo * -1); 
-			}
-			else if(combo > 25){
+			if(combo > 25){
 				var reduced = 50 - combo;
 				finalvalue = 25 - reduced;
 			}
