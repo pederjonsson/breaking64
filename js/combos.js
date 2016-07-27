@@ -25,6 +25,10 @@ var dbHelper = require('./dbhelper');
 module.exports = {
 
 	frequencySettings: {
+		maxUniqueLetters:21
+	},
+
+	wordSettings:{
 		lettersNotAllowed:['k','y','w']
 	},
 
@@ -32,6 +36,11 @@ module.exports = {
 	originalLetters:{
 		border:"ANYVYQXGKSFVPURKHHCZLRNFPNVSZZIYFTPEJZMMUSZDEYRNKZVVTMFTRTNLKHYO",
 		middle:"GALRFLFLISUREEIERMVASRIENEEEUUPTOIUTOAETESTUOIAOLCLNTGTPSUHREUCD"
+	},
+
+	uniqueLetters:{
+		border:"ACDEFGHIJKLMNOPQRSTUVXYZ",
+		middle:"ACDEFGHILMNOPRSTUV"
 	},
 
 	generateCombos: function(db, callback) {
