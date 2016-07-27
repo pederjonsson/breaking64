@@ -1,0 +1,16 @@
+<h4>Combos in DB</h4>
+
+<form method="post" action="/clearallcombos">
+	clear all combos
+    <input type="submit" value="Submit">
+</form>
+<p>{{deletedRows}}</p>
+
+<ul>
+{{#each items}}
+  <li>
+  	<p>combo: {{combo}}</p>
+  </li>
+{{/each}}
+</ul>
+
