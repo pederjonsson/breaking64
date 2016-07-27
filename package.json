@@ -3,7 +3,23 @@
   "version": "0.0.1",
   "description": "A Node.js App using express",
   "dependencies": {
-	"express": "*"
-   },
-  "engine": "node >=0.6.x"
+    "express": "*"
+  },
+  "engine": "node >=0.6.x",
+  "main": "init.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pederjonsson/breaking64.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pederjonsson/breaking64/issues"
+  },
+  "homepage": "https://github.com/pederjonsson/breaking64#readme"
 }
