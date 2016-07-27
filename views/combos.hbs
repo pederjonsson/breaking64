@@ -2,7 +2,7 @@
 
 <form method="post" action="/clearallcombos">
 	clear all combos
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" onclick="return confirm('Are you sure?')">
 </form>
 <p>{{deletedRows}}</p>
 
